@@ -1,0 +1,40 @@
+body{
+    background-color: #f1faee; 
+}
+img{
+    width: 200px;
+}
+h1{
+    color: #1d3557;
+}
+p{
+    font-size: 20px;
+}
+
+nav{
+    display: flex; /* Flexbox layout on the container */
+    justify-content: space-between;
+    
+}
+/* unvisited link */
+a:link {
+    color: #457b9d;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    background-color: #a8dadc;
+    color: #1d3557;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
