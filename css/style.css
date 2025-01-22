@@ -4,11 +4,26 @@ body{
 img{
     width: 200px;
 }
-h1{
-    color: #1d3557;
+
+h1, img {
+  text-align: center;      /* Centering text in h1 */
+  display: block;          /* Making img behave like a block element */
+  margin-left: auto;       /* Auto margins for centering */
+  margin-right: auto;      /* Auto margins for centering */
+  color: #1d3557;
+  font-size: 20px;
 }
 p{
-    font-size: 20px;
+  margin-left: 200px;  /* Adjust the top and bottom margins for the paragraphs */
+  margin-right: 200px;
+  text-align: center;
+}
+.teamsLink {
+  display: block;           /* Makes the link behave like a block-level element */
+  margin-left: auto;        /* Auto margins for centering */
+  margin-right: auto;       /* Auto margins for centering */
+  text-align: center;       /* Ensures the text is centered within the link */
+  margin-top: 10px;         /* Optional: Adds space above the link */
 }
 
 nav{
