@@ -14,8 +14,8 @@ h1, img {
   font-size: 20px;
 }
 p{
-  margin-left: 200px;  /* Adjust the top and bottom margins for the paragraphs */
-  margin-right: 200px;
+  margin-left: 20%;  /* Adjust the top and bottom margins for the paragraphs */
+  margin-right: 20%;
   text-align: center;
 }
 .teamsLink {
