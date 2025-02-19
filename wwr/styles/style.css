@@ -41,6 +41,8 @@ nav a {
 }
 header {
   background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 150px auto;
 }
 nav a:hover {
   background-color: var(--accent2-color);
